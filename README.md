@@ -1,40 +1,30 @@
-# UNIT-1-PROJECT
+# A Flight Management System
+
+An Airline Management System called 'YOUR SKY' which designed to control all operations of an airline. This system deals with 
+scheduling of flights, air ticket reservations, flight cancellations, and user management & authentication.
+The systemon deals with two fronts, the normal users/customers side and the administration side.
+
+## 1- CUSTOMERS ONLY SIDE:
+
+- The system allow customers to search for flights for a given date and origin/destination airport.
+- Customers should be able to reserve a ticket for any scheduled flight.
+- Users of the system can check flight schedules, their departure time, available seats, arrival time, and other details.
+- Customers can make reservations for multiple passengers with one booking.
+- Customers can preview thier profiles and update them
+- The system shandles payments for reservations.
+
+
+The system should be able to handle payments for reservations.
+
+## 2- ADMINISTRATIVE SIDE:
+- Only admins of the system can add new flights, and flight schedules.
+- Admins can display more details about the flights as opposed to normal customers.
+- Only admins can give/change roles of their employees to grant them mor privileges.
 
 
 
-## Based on what you’ve learned until now , create a project of your choosing (impress us with your imagination) . This project must at least satisfy the following minimum requirements :
+#### HOW TO USE:
+- The system is driven by two main screens/menus.
+- Use the system as explained in the different menus by typing the initials of the command apearing on the menu.
+- Once you leave the menu, you'll be guided throw text commands.
 
-- Must be interactive on CLI.
-- Use your coding skills in Python accurately.
-- Organize Your Code into modules & (or packages)
-
-## Example Project :  An online Grocery Store :
-
-#### Overview : An online store that sells fruits to customers. This online store has 2 main users. The customer and the manager of the store . Each one of them should be able to do the following tasks for the store to function properly . 
-
-#### As a customer I should be able to do the following :
-- Browse  Products . 
-- View the product info (summary, specs, price, quantity , etc.)
-- Search for Products.
-- Get recommendations for my next purchase based on my purchase history.
-- Add Products to the shopping cart .
-- Remove a product from the shopping cart.
-- List the products in my shopping cart. 
-- Continue to checkout . 
-- Fill in my address for delivery.
-- Get receipt of my purchases.
-- Check delivery status . 
-
-
-
-#### Usage :
- Explain to the user how to use your project . 
- for example:
- - type in search product_name to search for a product.
- - type in list_products to show all the products in the grocery.
- - type in show product_name to get information about this product.
- - type in buy product_name to buy the product . 
- - and so on...
-
-
-### For your project. Edit this README.md file to include your own project name,  overview, user stories, and usage. 

@@ -193,7 +193,7 @@ class FlightSystem:
         input("Press Enter to continue..")
 
 
-    #Authenticates users based on username and password.
+    #Authenticates users based on username and hashed password.
     def login(self):
         if len(self.users) != 0: 
             for attempt in range(3):

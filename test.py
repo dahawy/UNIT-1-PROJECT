@@ -15,7 +15,6 @@ fs = FlightSystem()
     #print(bookingID, booking.flightNumber,booking.bookingTime)
     #print((booking.passengers).get(passengerID))
     #print((booking.passengers).keys().name)
-if 'BF402322'in fs.bookings:
-    if fs.passengers in (fs.bookings['BF402322'].passengers.keys()):
-        print("good")
-    #     print(passengerid)fs.bookings['BF402322'])
+if fs.passengers not in (fs.bookings['BF402322']).passengers.items():
+    print(fs.passengers)
+    #print(passengerid)fs.bookings['BF402322'])
